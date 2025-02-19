@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: white;
+    }
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: grey;
+}
+
+a:visited {
+    color: red;
+}
+
+.info {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 30px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(255, 255, 255, 0.25);
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: 500;
+    color: #7D7D7D;
+    margin: 0;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.bg-color-3 li {
+    font-weight: 300;
+}
+
+.bg-color-1 {
+    background-color: #302a2a;
+}
+
+.bg-color-2 {
+    background-color: #191616;
+}
+
+.bg-color-3 {
+    background-color: #211919;
+}
+
+.btn {
+    background: white;
+    font-size: 16px;
+    color: black;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-family: inherit;
+    border: none;
+    transition: all .3s;
+    border-radius: 30px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li{
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.list-2{
+    list-style: none;
+    padding: 0;
+}
+
+.list-2 li {
+    margin-bottom: 15px;
+    border-bottom: 1px dashed white;
+    padding-bottom: 5px;
+
+}
+
+.table {
+    width: 100%;
+}
+
+table td{
+    padding-bottom: 15px;
+}
+
+.table td:nth-child(2){
+    color:orange;
+}
+
+.table td:nth-child(3 ){
+    color:orange;
+}
+
+.form h2{
+    text-align: center;
+}
+
+.form-group label{
+    display: block;
+    font-size: 16px;
+    color: orange;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    color: #fff;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit;
+    font-size: 13px;
+}
+
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    /* width: calc(50% - 20px); */
+    width: 50%;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+@media(max-width: 600px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media(max-width: 600px) {
+    .form-row {
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}
